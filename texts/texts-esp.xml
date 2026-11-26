@@ -106,7 +106,7 @@
 
 	<!--  TRAINING SCREEN -->
 	<term key="trainingDescription">Entrena a tu alien para ser el mejor</term>
-	<term key="trainingTrainstat">ENTRENAMIENTO</term>
+	<term key="trainingTrainstat">ENTRENAR</term>
 
 	<!--  FIXTURE SCREEN -->
 	<term key="fixturePlayer">JUGADOR</term>
@@ -115,7 +115,7 @@
 	<!--  TOURNAMENT SELECTION SCREEN -->
 	<term key="tournamentSubtitle">Completa todo el torneo</term>
 	<term key="tournamentWon">¡GANASTE!</term>
-	<term key="tournamentRequirement">REQUERIMIENTO</term>
+	<term key="tournamentRequirement">REQUISITO</term>
 	<term key="tournamentRequirements">REQUISITOS</term>
 	<term key="tournamentReward">GRATIFICACIÓN</term>
 	<term key="tournamentRewards">PREMIOS</term>
