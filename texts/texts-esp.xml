@@ -158,21 +158,21 @@
 
 	<!--  ALIENS NAMES  -->
 	<term key="InsectoidName">ESCARABOLA</term>
-	<term key="NosedeenianName">NOSEDEENIAN</term>
+	<term key="NosedeenianName">BÁTORE</term>
 	<term key="TetramandName">TETRAMAND</term>
-	<term key="PyroniteName">PYRONITA</term>
+	<term key="PyroniteName">FUEGO</term>
 	<term key="KinceleranName">KinecelerAn</term>
 	<term key="MethanosianName">MethAnosiAno</term>
 	<term key="PelarotaAlburianoName">PelArotA ArburiAno</term>
 	<term key="AppoplexianName">AppoplexiAn</term>
 	<term key="TalpaedanName">TAlpAedan</term>
 	<term key="OrishanName">OrishAn</term>
-	<term key="VaxasaurianoName">VAXASAURIANO</term>
+	<term key="VaxasaurianoName">HUMUNGOSAURIO</term>
 	<term key="GeocheloneAerioName">Geochelone Aerio</term>
-	<term key="AracnochimpanceName">ARACNOCHIMPANCÉ</term>
-	<term key="NecrofriggianoName">NECROFRIGGIANO</term>
+	<term key="AracnochimpanceName">MONO ARAÑA</term>
+	<term key="NecrofriggianoName">FRÍO</term>
 	<term key="GourmandName">UPCHUCK</term>
-	<term key="ConductoidName">CONDUCTOID</term>
+	<term key="ConductoidName">FEEDBACK</term>
 	<term key="GimlinopithecusName">Gimlinopithecus</term>
 	<term key="AerofibioName">Aerofibio</term>
 	<term key="SegmentasapienName">SegmentAsApien</term>
@@ -199,7 +199,7 @@
 	<term key="NosedeenianAttack2">RAYO ELÉCTRICO</term>
 	<term key="NosedeenianAttack3">PUÑO SÓNICO</term>
 
-	<term key="NosedeenianDefense1">BLOQUEAR</term>
+	<term key="NosedeenianDefense1">BLOQUEO</term>
 	<term key="NosedeenianDefense2">REGENERACIÓN</term>
 
 	<!-- Tetramand -->
@@ -237,7 +237,7 @@
 	<term key="AracnochimpanceAttack2">TELARAÑA</term>
 	<term key="AracnochimpanceAttack3">PUÑOS DE ACERO</term>
 
-	<term key="AracnochimpanceDefense1">BLOQUEAR</term>
+	<term key="AracnochimpanceDefense1">BLOQUEO</term>
 	<term key="AracnochimpanceDefense2">ROPA DE SEDA</term>
 	<term key="AracnochimpanceDefense3">GRITO DE GUERRA</term>
 
@@ -258,7 +258,7 @@
 	<term key="GourmandAttack3">CONSUMO</term>
 	<term key="GourmandAttack4">ALIENTO EXPLOSIVO</term>
 
-	<term key="GourmandDefense1">BLOQUEAR</term>
+	<term key="GourmandDefense1">BLOQUEO</term>
 	<term key="GourmandDefense2">DIGESTIÓN</term>
 	<term key="GourmandDefense3">RECUPERAR</term>
 
@@ -303,9 +303,9 @@
 	<term key="Effect_Wipe">LIMPIO</term>
 
 	<!--  ITEM NAMES  -->
-	<term key="Item_Heal_1_Name">SMOOTY SIMPLE</term>
-	<term key="Item_Heal_2_Name">SMOOTY ESPECIAL</term>
-	<term key="Item_Heal_3_Name">SMOOTY DE ORO</term>
+	<term key="Item_Heal_1_Name">SMOOTHY SIMPLE</term>
+	<term key="Item_Heal_2_Name">SMOOTHY ESPECIAL</term>
+	<term key="Item_Heal_3_Name">SMOOTHY DE ORO</term>
 
 	<term key="Item_Courage_1_Name">VIGOR TIRANÓPIDO</term>
 	<term key="Item_Courage_2_Name">PODER SLAMWORM</term>
@@ -339,13 +339,13 @@
 	<term key="Item_Doubleaction_Name">TecnologÍA GAlvAn</term>
 
 	<!--  TOURNAMENT NAMES  -->
-	<term key="Tournament1_Name">GOURMAND</term>
+	<term key="Tournament1_Name">COPA GOURMAND</term>
 	<term key="Tournament2_Name">COMPETICIÓN ARACNA</term>
 	<term key="Tournament3_Name">CRUZADA ANUR TRANSYL</term>
 	<term key="Tournament4_Name">PRUEBA METHANOS</term>
 	<term key="Tournament5_Name">DISPUTA MIKD'LTY</term>
 	<term key="Tournament6_Name">TORNEO TERMINUS III</term>
-	<term key="Tournament7_Name">PELEJA ANODYNE</term>
+	<term key="Tournament7_Name">COPA CONDUCTOID</term>
 	<term key="Tournament8_Name">DESAFÍO VILGAXIA</term>
 
 	<!--  WATCHES NAMES  -->
@@ -361,14 +361,14 @@
 
 	<!--  CARDS NAMES  -->
 	<term key="Card1Name">UPCHUCK</term>
-	<term key="Card2Name">ARACNOCHIMPANCÉ</term>
+	<term key="Card2Name">MONO ARAÑA</term>
 	<term key="Card3Name">TRANSYLIAN</term>
-	<term key="Card4Name">PYRONITA</term>
+	<term key="Card4Name">FUEGO</term>
 
-	<term key="Card5Name">NECROFRIGGIANO</term>
+	<term key="Card5Name">FRÍO</term>
 	<term key="Card6Name">TETRAMAND</term>
-	<term key="Card7Name">CONDUCTOID</term>
-	<term key="Card8Name">VAXASAURIANO</term>
+	<term key="Card7Name">FEEDBACK</term>
+	<term key="Card8Name">HUMUNGOSAURIO</term>
 
 	<!-- TUTORIAL TEXTS -->
 	<term key="TutorialStepIntroText">¡BIENVENIDO A CAMPEONES GALÁCTICOS!</term>
