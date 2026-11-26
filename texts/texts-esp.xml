@@ -142,8 +142,8 @@
 	<term key="versusQuickFight">LUCHA RÁPIDA</term>
 
 	<!--  BATTLE HUD  -->
-	<term key="SkillsDisplayerAttackLabel">GOLPE</term>
-	<term key="SkillsDisplayerDefenseLabel">APOYO</term>
+	<term key="SkillsDisplayerAttackLabel">ATAQUE</term>
+	<term key="SkillsDisplayerDefenseLabel">DEFENSA</term>
 	<term key="CriticalHit">GOLPE CRÍTICO!</term>
 	<term key="MissHit">ESQUIVADO!</term>
 
@@ -157,7 +157,7 @@
 	<term key="SwapButtonsTitle">ALIENS</term>
 
 	<!--  ALIENS NAMES  -->
-	<term key="InsectoidName">INSECTOID</term>
+	<term key="InsectoidName">ESCARABOLA</term>
 	<term key="NosedeenianName">NOSEDEENIAN</term>
 	<term key="TetramandName">TETRAMAND</term>
 	<term key="PyroniteName">PYRONITA</term>
@@ -171,7 +171,7 @@
 	<term key="GeocheloneAerioName">Geochelone Aerio</term>
 	<term key="AracnochimpanceName">ARACNOCHIMPANCÉ</term>
 	<term key="NecrofriggianoName">NECROFRIGGIANO</term>
-	<term key="GourmandName">GOURMAND</term>
+	<term key="GourmandName">UPCHUCK</term>
 	<term key="ConductoidName">CONDUCTOID</term>
 	<term key="GimlinopithecusName">Gimlinopithecus</term>
 	<term key="AerofibioName">Aerofibio</term>
@@ -182,7 +182,7 @@
 	<term key="LoboanName">LoboAn</term>
 	<term key="ThepKhufanName">Thep KhufAn</term>
 	<term key="TransylianName">TRANSYLIAN</term>
-	<term key="SplixsonName">SPLIXSON</term>
+	<term key="SplixsonName">DITTO</term>
 
 	<!--  SKILLS NAMES  -->
 
@@ -191,7 +191,7 @@
 	<term key="InsectoidAttack2">BOLA DE PLASMA</term>
 	<term key="InsectoidAttack3">GARRAS VENENOSAS</term>
 
-	<term key="InsectoidDefense1">BLOQUE</term>
+	<term key="InsectoidDefense1">BLOQUEO</term>
 	<term key="InsectoidDefense2">ESCUDO PLÁSTICO</term>
 
 	<!-- Nosedeenian -->
@@ -203,7 +203,7 @@
 	<term key="NosedeenianDefense2">REGENERACIÓN</term>
 
 	<!-- Tetramand -->
-	<term key="TetramandAttack1">PONCHE</term>
+	<term key="TetramandAttack1">GOLPE</term>
 	<term key="TetramandAttack2">PUÑO MÚLTIPLE</term>
 	<term key="TetramandAttack3">CONGELAR</term>
 	<term key="TetramandAttack4">ATAQUE FINAL</term>
@@ -218,7 +218,7 @@
 	<term key="PyroniteAttack3">SURF ARDIENTE</term>
 	<term key="PyroniteAttack4">CICLÓN DE FUEGO</term>
 
-	<term key="PyroniteDefense1">CUADRA</term>
+	<term key="PyroniteDefense1">CUBRIRSE</term>
 	<term key="PyroniteDefense2">ADRENALINA</term>
 	<term key="PyroniteDefense3">MURO DE FLAMAS</term>
 
@@ -228,7 +228,7 @@
 	<term key="VaxasaurianoAttack3">TERREMOTO</term>
 	<term key="VaxasaurianoAttack4">FUERZA AUMENTADA</term>
 
-	<term key="VaxasaurianoDefense1">BLOQUE</term>
+	<term key="VaxasaurianoDefense1">BLOQUEO</term>
 	<term key="VaxasaurianoDefense2">RUGIR</term>
 	<term key="VaxasaurianoDefense3">CRECIMIENTO</term>
 
@@ -242,7 +242,7 @@
 	<term key="AracnochimpanceDefense3">GRITO DE GUERRA</term>
 
 	<!-- Necrofriggiano -->
-	<term key="NecrofriggianoAttack1">PONCHE</term>
+	<term key="NecrofriggianoAttack1">GOLPE</term>
 	<term key="NecrofriggianoAttack2">ARRANQUE</term>
 	<term key="NecrofriggianoAttack3">SUSPIRO HELADO</term>
 	<term key="NecrofriggianoAttack4">FLAMAS HELADAS</term>
@@ -263,7 +263,7 @@
 	<term key="GourmandDefense3">RECUPERAR</term>
 
 	<!-- Conductoid -->
-	<term key="ConductoidAttack1">PONCHE</term>
+	<term key="ConductoidAttack1">GOLPE</term>
 	<term key="ConductoidAttack2">ABSORCIÓN</term>
 	<term key="ConductoidAttack3">DESCARGA ELÉCTRICA</term>
 	<term key="ConductoidAttack4">LANZAR ENERGÍA</term>
@@ -277,7 +277,7 @@
 	<term key="TransylianAttack2">PUÑO ELÉCTRICO</term>
 	<term key="TransylianAttack3">TECNOQUINESIS</term>
 
-	<term key="TransylianDefense1">BLOQUE</term>
+	<term key="TransylianDefense1">BLOQUEO</term>
 	<term key="TransylianDefense2">FUROR</term>
 	<term key="TransylianDefense3">MAGNETISMO</term>
 
@@ -286,7 +286,7 @@
 	<term key="SplixsonAttack2">CLONACIÓN</term>
 	<term key="SplixsonAttack3">GOLPE DE CORRIENTE</term>
 
-	<term key="SplixsonDefense1">CUADRA</term>
+	<term key="SplixsonDefense1">CUBRIRSE</term>
 	<term key="SplixsonDefense2">ACELERACIÓN</term>
 
 	<!--  EFFECTS NAMES  -->
@@ -303,9 +303,9 @@
 	<term key="Effect_Wipe">LIMPIO</term>
 
 	<!--  ITEM NAMES  -->
-	<term key="Item_Heal_1_Name">ZALAMERO SIMPLE</term>
-	<term key="Item_Heal_2_Name">SMOOTH ESPECIAL</term>
-	<term key="Item_Heal_3_Name">SMOOTHIE DE ORO</term>
+	<term key="Item_Heal_1_Name">SMOOTY SIMPLE</term>
+	<term key="Item_Heal_2_Name">SMOOTY ESPECIAL</term>
+	<term key="Item_Heal_3_Name">SMOOTY DE ORO</term>
 
 	<term key="Item_Courage_1_Name">VIGOR TIRANÓPIDO</term>
 	<term key="Item_Courage_2_Name">PODER SLAMWORM</term>
@@ -339,7 +339,7 @@
 	<term key="Item_Doubleaction_Name">TecnologÍA GAlvAn</term>
 
 	<!--  TOURNAMENT NAMES  -->
-	<term key="Tournament1_Name">CONCURSO PEPTOS XI</term>
+	<term key="Tournament1_Name">GOURMAND</term>
 	<term key="Tournament2_Name">COMPETICIÓN ARACNA</term>
 	<term key="Tournament3_Name">CRUZADA ANUR TRANSYL</term>
 	<term key="Tournament4_Name">PRUEBA METHANOS</term>
@@ -360,7 +360,7 @@
 	<term key="Watch8Name">Azul</term>
 
 	<!--  CARDS NAMES  -->
-	<term key="Card1Name">GOURMAND</term>
+	<term key="Card1Name">UPCHUCK</term>
 	<term key="Card2Name">ARACNOCHIMPANCÉ</term>
 	<term key="Card3Name">TRANSYLIAN</term>
 	<term key="Card4Name">PYRONITA</term>
@@ -377,7 +377,7 @@
 	<term key="TutorialStepFightText">¡YA ESTÁS LISTO PARA ENFRENTARTE A TU PRIMER OPONENTE!</term>
 	<term key="TutorialStepTrainingText">ENTRENA A TU ALIENÍGENA PARA HACERLO MÁS FUERTE</term>
 	<term key="TutorialStepTournamentText">PELEA EN TU PRIMER CONCURSO!</term>
-	<term key="TutorialStepCongratulationsText">¡FELICITACIONES, GANASTE TU PRIMERA COMPETICIÓN!</term>
+	<term key="TutorialStepCongratulationsText">¡FELICITACIONES, GANASTE TU PRIMER TORNEO!</term>
 	<term key="TutorialStepCongratulations2Text">ESTÁS LISTO PARA CONTINUAR TU AVENTURA</term>
 
 </texts>
