@@ -28,7 +28,7 @@
 	<term key="strength">FUERZA</term>
 	<term key="defense">DEFENSA</term>
 	<term key="agility">AGILIDAD</term>
-	<term key="levelLabel">LVL</term>
+	<term key="levelLabel">NIV</term>
 	<term key="xpLabel">EXP</term>
 	<term key="retry">VUELVE A IR</term>
 	<term key="gotomap">IR AL MAPA</term>
@@ -44,7 +44,7 @@
 	<!--  BATTLE WON  -->
 	<term key="gameWonTitle">GANASTE</term>
 	<term key="gameWonDescription">Obtuviste Experiencia</term>
-	<term key="gameWonLevelUp">Mejora!</term>
+	<term key="gameWonLevelUp">¡Mejora!</term>
 
 	<!--  BUY CONFIRMATION  -->
 	<term key="buyConfirmationTitleTrainining">ENTRENAR</term>
