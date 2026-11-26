@@ -311,15 +311,15 @@
 	<term key="Item_Courage_2_Name">PODER SLAMWORM</term>
 	<term key="Item_Courage_3_Name">FUERZA CRABDOZER</term>
 
-	<term key="Item_Hardness_1_Name">CORAZA COMÚN</term>
-	<term key="Item_Hardness_2_Name">ARMADURA PLATEADA</term>
+	<term key="Item_Hardness_1_Name">PROTO-TECNO COMÚN</term>
+	<term key="Item_Hardness_2_Name">PROTO-TECNO PLATEADO</term>
 	<term key="Item_Hardness_3_Name">PROTO-TECNO DORADO</term>
 
 	<term key="Item_Adrenalin_1_Name">RAPIDEZ TERRORÁNTULA</term>
 	<term key="Item_Adrenalin_2_Name">PRESTEZA BUGLIZARD</term>
 	<term key="Item_Adrenalin_3_Name">AGILIDAD PANUNCIAN</term>
 
-	<term key="Item_Recharge_1_Name">CORRODIUM SIMPLE</term>
+	<term key="Item_Recharge_1_Name">CORRODIUM</term>
 	<term key="Item_Recharge_2_Name">CORRODIUM DOBLE</term>
 	<term key="Item_Recharge_3_Name">CORRODIUM TRIPLE</term>
 
