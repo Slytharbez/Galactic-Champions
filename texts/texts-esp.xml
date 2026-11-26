@@ -38,7 +38,7 @@
 
 	<!--  BATTLE LOST  -->
 	<term key="gameLostTitle">PERDISTE</term>
-	<term key="gameLostDescriptionQuickBattle">INTÉNTALO DENUEVO!</term>
+	<term key="gameLostDescriptionQuickBattle">INTÉNTALO DE NUEVO!</term>
 	<term key="gameLostDescriptionTournament">ESTÁS FUERA DEL DESAFÍO</term>
 
 	<!--  BATTLE WON  -->
@@ -52,7 +52,7 @@
 
 	<!--  FIRST ALIEN SELECTION -->
 	<term key="firstAlienSelectionTitle"><![CDATA[<P>SELECCIONAR</P><P>ALIEN</P>]]></term>
-	<term key="firstAlienSelectionDescription">Elije a un alien para tu aventura</term>
+	<term key="firstAlienSelectionDescription">Elige a un alien para tu aventura</term>
 
 	<!--  FIRST ALIEN CONFIRMATION  -->
 	<term key="firstAlienConfirmationTitle">TUS ELECCIONES</term>
@@ -84,16 +84,16 @@
 	<term key="Courage_1ShopDescription">AUMENTA FUERZA</term>
 	<term key="Courage_2ShopDescription">AUMENTA LA FUERZA</term>
 	<term key="Courage_3ShopDescription">AUMENTA LA FUERZA</term>
-	<term key="Hardness_1ShopDescription">REFORZA DEFENSA</term>
-	<term key="Hardness_2ShopDescription">REFORZA LA DEFENSA</term>
-	<term key="Hardness_3ShopDescription">REFORZA LA DEFENSA</term>
+	<term key="Hardness_1ShopDescription">REFUERZA DEFENSA</term>
+	<term key="Hardness_2ShopDescription">REFUERZA LA DEFENSA</term>
+	<term key="Hardness_3ShopDescription">REFUERZA LA DEFENSA</term>
 	<term key="Adrenalin_1ShopDescription">INCREMENTA AGILIDAD</term>
 	<term key="Adrenalin_2ShopDescription">INCREMENTA LA AGILIDAD</term>
 	<term key="Adrenalin_3ShopDescription">INCREMENTA LA AGILIDAD</term>
 	<term key="Recharge_1ShopDescription">RECUPERA ENERGÍA</term>
 	<term key="Recharge_2ShopDescription">RECUPERA ENERGÍA</term>
 	<term key="Recharge_3ShopDescription">RECUPERA ENERGÍA</term>
-	<term key="ElixirShopDescription">RENOVA ENERGÍA Y SALUD</term>
+	<term key="ElixirShopDescription">RENUEVA ENERGÍA Y SALUD</term>
 	<term key="PurifyShopDescription">REMUEVE LOS EFECTOS NEGATIVOS</term>
 	<term key="SwitchShopDescription">ÚSALO PARA CAMBIAR DE ALIENS</term>
 	<term key="ReviveShopDescription">REVIVE UN ALIEN CAÍDO</term>
@@ -259,7 +259,7 @@
 	<term key="GourmandAttack4">ALIENTO EXPLOSIVO</term>
 
 	<term key="GourmandDefense1">BLOQUEAR</term>
-	<term key="GourmandDefense2">DIGESTION</term>
+	<term key="GourmandDefense2">DIGESTIÓN</term>
 	<term key="GourmandDefense3">RECUPERAR</term>
 
 	<!-- Conductoid -->
@@ -287,7 +287,7 @@
 	<term key="SplixsonAttack3">GOLPE DE CORRIENTE</term>
 
 	<term key="SplixsonDefense1">CUADRA</term>
-	<term key="SplixsonDefense2">ACCELERACIÓN</term>
+	<term key="SplixsonDefense2">ACELERACIÓN</term>
 
 	<!--  EFFECTS NAMES  -->
 	<term key="Effect_Heal">RECUPERAR</term>
@@ -317,7 +317,7 @@
 
 	<term key="Item_Adrenalin_1_Name">RAPIDEZ TERRORÁNTULA</term>
 	<term key="Item_Adrenalin_2_Name">PRESTEZA BUGLIZARD</term>
-	<term key="Item_Adrenalin_3_Name">AGUILIDAD PANUNCIAN</term>
+	<term key="Item_Adrenalin_3_Name">AGILIDAD PANUNCIAN</term>
 
 	<term key="Item_Recharge_1_Name">CORRODIUM SOLO</term>
 	<term key="Item_Recharge_2_Name">ELEMENTO X DOBLE</term>
@@ -372,12 +372,12 @@
 
 	<!-- TUTORIAL TEXTS -->
 	<term key="TutorialStepIntroText">¡BIENVENIDO A CAMPEONES GALÁCTICOS!</term>
-	<term key="TutorialStepWatchText">ELIJE TU DISPOSITIVO ALIENÍGENA</term>
+	<term key="TutorialStepWatchText">ELIGE TU DISPOSITIVO ALIENÍGENA</term>
 	<term key="TutorialStepAlienText">BUENA ELECCIÓN, SELECCIONA A TU PRIMER ALIEN </term>
 	<term key="TutorialStepFightText">¡YA ESTÁS LISTO PARA ENFRENTARTE A TU PRIMER OPONENTE!</term>
 	<term key="TutorialStepTrainingText">ENTRENA A TU ALIENÍGENA PARA HACERLO MÁS FUERTE</term>
 	<term key="TutorialStepTournamentText">PELEA EN TU PRIMER CONCURSO!</term>
-	<term key="TutorialStepCongratulationsText">¡FELICITACIONES, GANASTE TU PRIMER COMPETICIÓN!</term>
-	<term key="TutorialStepCongratulations2Text">ESTAS LISTO PARA CONTINUAR TU AVENTURA</term>
+	<term key="TutorialStepCongratulationsText">¡FELICITACIONES, GANASTE TU PRIMERA COMPETICIÓN!</term>
+	<term key="TutorialStepCongratulations2Text">ESTÁS LISTO PARA CONTINUAR TU AVENTURA</term>
 
 </texts>
