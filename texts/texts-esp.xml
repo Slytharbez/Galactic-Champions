@@ -319,9 +319,9 @@
 	<term key="Item_Adrenalin_2_Name">PRESTEZA BUGLIZARD</term>
 	<term key="Item_Adrenalin_3_Name">AGILIDAD PANUNCIAN</term>
 
-	<term key="Item_Recharge_1_Name">CORRODIUM SOLO</term>
-	<term key="Item_Recharge_2_Name">ELEMENTO X DOBLE</term>
-	<term key="Item_Recharge_3_Name">SUB-ENERGÍA TRIPLE</term>
+	<term key="Item_Recharge_1_Name">CORRODIUM SIMPLE</term>
+	<term key="Item_Recharge_2_Name">CORRODIUM DOBLE</term>
+	<term key="Item_Recharge_3_Name">CORRODIUM TRIPLE</term>
 
 	<term key="Item_Purify_Name">OGIA ÁMBAR</term>
 
