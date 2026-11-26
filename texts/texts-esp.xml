@@ -159,7 +159,7 @@
 	<!--  ALIENS NAMES  -->
 	<term key="InsectoidName">ESCARABOLA</term>
 	<term key="NosedeenianName">BÁTORE</term>
-	<term key="TetramandName">TETRAMAND</term>
+	<term key="TetramandName">CUATROBRAZOS</term>
 	<term key="PyroniteName">FUEGO</term>
 	<term key="KinceleranName">KinecelerAn</term>
 	<term key="MethanosianName">MethAnosiAno</term>
@@ -181,7 +181,7 @@
 	<term key="EctonuriteName">Ectonurite</term>
 	<term key="LoboanName">LoboAn</term>
 	<term key="ThepKhufanName">Thep KhufAn</term>
-	<term key="TransylianName">TRANSYLIAN</term>
+	<term key="TransylianName">FRANKENTRUENO</term>
 	<term key="SplixsonName">DITTO</term>
 
 	<!--  SKILLS NAMES  -->
@@ -340,13 +340,13 @@
 
 	<!--  TOURNAMENT NAMES  -->
 	<term key="Tournament1_Name">COPA GOURMAND</term>
-	<term key="Tournament2_Name">COMPETICIÓN ARACNA</term>
+	<term key="Tournament2_Name">COPA ARACNOCHIMPANCÉ</term>
 	<term key="Tournament3_Name">CRUZADA ANUR TRANSYL</term>
 	<term key="Tournament4_Name">PRUEBA METHANOS</term>
 	<term key="Tournament5_Name">DISPUTA MIKD'LTY</term>
 	<term key="Tournament6_Name">TORNEO TERMINUS III</term>
 	<term key="Tournament7_Name">COPA CONDUCTOID</term>
-	<term key="Tournament8_Name">DESAFÍO VILGAXIA</term>
+	<term key="Tournament8_Name">COPA VAXASAURIANO</term>
 
 	<!--  WATCHES NAMES  -->
 	<term key="Watch1Name">Rojo Maligno</term>
@@ -362,11 +362,11 @@
 	<!--  CARDS NAMES  -->
 	<term key="Card1Name">UPCHUCK</term>
 	<term key="Card2Name">MONO ARAÑA</term>
-	<term key="Card3Name">TRANSYLIAN</term>
+	<term key="Card3Name">FRANKENTRUENO</term>
 	<term key="Card4Name">FUEGO</term>
 
 	<term key="Card5Name">FRÍO</term>
-	<term key="Card6Name">TETRAMAND</term>
+	<term key="Card6Name">CUATROBRAZOS</term>
 	<term key="Card7Name">FEEDBACK</term>
 	<term key="Card8Name">HUMUNGOSAURIO</term>
 
