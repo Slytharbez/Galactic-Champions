@@ -38,7 +38,7 @@
 
 	<!--  BATTLE LOST  -->
 	<term key="gameLostTitle">PERDISTE</term>
-	<term key="gameLostDescriptionQuickBattle">INTÉNTALO DE NUEVO!</term>
+	<term key="gameLostDescriptionQuickBattle">¡INTÉNTALO DE NUEVO!</term>
 	<term key="gameLostDescriptionTournament">ESTÁS FUERA DEL DESAFÍO</term>
 
 	<!--  BATTLE WON  -->
@@ -133,7 +133,7 @@
 	<term key="HUDPause">PAusA</term>
 
 	<!--  EXIT POPUP  -->
-	<term key="exit_text">ESTÁS SEGURO DE QUE QUIERES ABANDONAR LA PELEA?</term>
+	<term key="exit_text">¿ESTÁS SEGURO DE QUE QUIERES ABANDONAR LA PELEA?</term>
 	<term key="exit_no">No</term>
 	<term key="exit_yes">SÍ</term>
 
@@ -144,8 +144,8 @@
 	<!--  BATTLE HUD  -->
 	<term key="SkillsDisplayerAttackLabel">ATAQUE</term>
 	<term key="SkillsDisplayerDefenseLabel">DEFENSA</term>
-	<term key="CriticalHit">GOLPE CRÍTICO!</term>
-	<term key="MissHit">ESQUIVADO!</term>
+	<term key="CriticalHit">¡GOLPE CRÍTICO!</term>
+	<term key="MissHit">¡ESQUIVADO!</term>
 
 	<term key="AliensMenuTitle">SELECCIONA TU ALIEN</term>
 	<term key="AliensMenuTitleDefeat">SELECCIONA TU PRÓXIMO ALIEN</term>
@@ -376,7 +376,7 @@
 	<term key="TutorialStepAlienText">BUENA ELECCIÓN, SELECCIONA A TU PRIMER ALIEN </term>
 	<term key="TutorialStepFightText">¡YA ESTÁS LISTO PARA ENFRENTARTE A TU PRIMER OPONENTE!</term>
 	<term key="TutorialStepTrainingText">ENTRENA A TU ALIENÍGENA PARA HACERLO MÁS FUERTE</term>
-	<term key="TutorialStepTournamentText">PELEA EN TU PRIMER CONCURSO!</term>
+	<term key="TutorialStepTournamentText">¡PELEA EN TU PRIMER CONCURSO!</term>
 	<term key="TutorialStepCongratulationsText">¡FELICITACIONES, GANASTE TU PRIMER TORNEO!</term>
 	<term key="TutorialStepCongratulations2Text">ESTÁS LISTO PARA CONTINUAR TU AVENTURA</term>
 
