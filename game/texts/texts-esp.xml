@@ -192,20 +192,20 @@
 	<term key="InsectoidAttack3">GARRAS VENENOSAS</term>
 
 	<term key="InsectoidDefense1">BLOQUEO</term>
-	<term key="InsectoidDefense2">ESCUDO PLÁSTICO</term>
+	<term key="InsectoidDefense2">ESCUDO PLASMÁTICO</term>
 
 	<!-- Nosedeenian -->
 	<term key="NosedeenianAttack1">PUÑETAZO</term>
 	<term key="NosedeenianAttack2">RAYO ELÉCTRICO</term>
-	<term key="NosedeenianAttack3">PUÑO SÓNICO</term>
+	<term key="NosedeenianAttack3">GOLPE SÓNICO</term>
 
 	<term key="NosedeenianDefense1">BLOQUEO</term>
 	<term key="NosedeenianDefense2">REGENERACIÓN</term>
 
 	<!-- Tetramand -->
-	<term key="TetramandAttack1">GOLPE</term>
-	<term key="TetramandAttack2">PUÑO MÚLTIPLE</term>
-	<term key="TetramandAttack3">CONGELAR</term>
+	<term key="TetramandAttack1">GOLPE BRUTAL</term>
+	<term key="TetramandAttack2">GOLPES CONSECUTIVOS</term>
+	<term key="TetramandAttack3">SOLIDIFICAR</term>
 	<term key="TetramandAttack4">ATAQUE FINAL</term>
 
 	<term key="TetramandDefense1">BLOQUEO</term>
@@ -213,8 +213,8 @@
 	<term key="TetramandDefense3">CUBRIR</term>
 	
 	<!-- Pyronite -->
-	<term key="PyroniteAttack1">GOLPEAR</term>
-	<term key="PyroniteAttack2">PELOTA DE FUEGO</term>
+	<term key="PyroniteAttack1">PUÑO ARDIENTE</term>
+	<term key="PyroniteAttack2">ESFERA ARDIENTE</term>
 	<term key="PyroniteAttack3">SURF ARDIENTE</term>
 	<term key="PyroniteAttack4">CICLÓN DE FUEGO</term>
 
@@ -223,7 +223,7 @@
 	<term key="PyroniteDefense3">MURO DE FLAMAS</term>
 
 	<!-- Vaxasauriano -->
-	<term key="VaxasaurianoAttack1">GOLPEAR</term>
+	<term key="VaxasaurianoAttack1">GOLPE TITÁNICO</term>
 	<term key="VaxasaurianoAttack2">ONDA DE CHOQUE</term>
 	<term key="VaxasaurianoAttack3">TERREMOTO</term>
 	<term key="VaxasaurianoAttack4">FUERZA AUMENTADA</term>
@@ -238,14 +238,14 @@
 	<term key="AracnochimpanceAttack3">PUÑOS DE ACERO</term>
 
 	<term key="AracnochimpanceDefense1">BLOQUEO</term>
-	<term key="AracnochimpanceDefense2">ROPA DE SEDA</term>
+	<term key="AracnochimpanceDefense2">MANTO DE SEDA</term>
 	<term key="AracnochimpanceDefense3">GRITO DE GUERRA</term>
 
 	<!-- Necrofriggiano -->
-	<term key="NecrofriggianoAttack1">GOLPE</term>
-	<term key="NecrofriggianoAttack2">ARRANQUE</term>
+	<term key="NecrofriggianoAttack1">GARRA HELADA</term>
+	<term key="NecrofriggianoAttack2">EMBESTIDA</term>
 	<term key="NecrofriggianoAttack3">SUSPIRO HELADO</term>
-	<term key="NecrofriggianoAttack4">FLAMAS HELADAS</term>
+	<term key="NecrofriggianoAttack4">FLAMAS GÉLIDAS</term>
 
 	<term key="NecrofriggianoDefense1">BLOQUEO</term>
 	<term key="NecrofriggianoDefense2">IMPULSO</term>
@@ -254,7 +254,7 @@
 
 	<!-- Gourmand -->
 	<term key="GourmandAttack1">PUÑETAZO</term>
-	<term key="GourmandAttack2">LAMER</term>
+	<term key="GourmandAttack2">LENGÜETAZO</term>
 	<term key="GourmandAttack3">CONSUMO</term>
 	<term key="GourmandAttack4">ALIENTO EXPLOSIVO</term>
 
@@ -263,17 +263,17 @@
 	<term key="GourmandDefense3">RECUPERAR</term>
 
 	<!-- Conductoid -->
-	<term key="ConductoidAttack1">GOLPE</term>
+	<term key="ConductoidAttack1">GOLPE ELÉCTRICO</term>
 	<term key="ConductoidAttack2">ABSORCIÓN</term>
 	<term key="ConductoidAttack3">DESCARGA ELÉCTRICA</term>
-	<term key="ConductoidAttack4">LANZAR ENERGÍA</term>
+	<term key="ConductoidAttack4">RÁFAGA DE ENERGÍA</term>
 
 	<term key="ConductoidDefense1">BLOQUEO</term>
 	<term key="ConductoidDefense2">RECARGAR</term>
-	<term key="ConductoidDefense3">MANTA ELÉCTRICA</term>
+	<term key="ConductoidDefense3">CORAZA ELÉCTRICA</term>
 
 	<!-- Transylian -->
-	<term key="TransylianAttack1">GOLPEAR</term>
+	<term key="TransylianAttack1">PUÑO DE TRUENO</term>
 	<term key="TransylianAttack2">PUÑO ELÉCTRICO</term>
 	<term key="TransylianAttack3">TECNOQUINESIS</term>
 
@@ -282,9 +282,9 @@
 	<term key="TransylianDefense3">MAGNETISMO</term>
 
 	<!-- Splixson -->
-	<term key="SplixsonAttack1">ARAÑAR</term>
+	<term key="SplixsonAttack1">ARAÑAZO</term>
 	<term key="SplixsonAttack2">CLONACIÓN</term>
-	<term key="SplixsonAttack3">GOLPE DE CORRIENTE</term>
+	<term key="SplixsonAttack3">EMBOSCADA</term>
 
 	<term key="SplixsonDefense1">CUBRIRSE</term>
 	<term key="SplixsonDefense2">ACELERACIÓN</term>
@@ -297,9 +297,9 @@
 	<term key="Effect_Recharge">RECARGA</term>
 	<term key="Effect_Trapped">ATRAPADO</term>
 	<term key="Effect_Burn">QUEMADO</term>
-	<term key="Effect_Taunt">PULLA</term>
+	<term key="Effect_Taunt">ATURDIDO</term>
 	<term key="Effect_Drain">DRENADO</term>
-	<term key="Effect_Paralyze">PARALISADO</term>
+	<term key="Effect_Paralyze">PARALIZADO</term>
 	<term key="Effect_Wipe">LIMPIO</term>
 
 	<!--  ITEM NAMES  -->
