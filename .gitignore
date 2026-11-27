@@ -1,0 +1,2 @@
+# Nada de compilados dentro del repo (todo se genera fuera: ver build.ps1)
+*.exe

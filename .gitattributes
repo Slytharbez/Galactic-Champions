@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Scripts de Windows con CRLF; el parche de Ruffle con LF (git apply)
+*.ps1 text eol=crlf
+*.patch text eol=lf

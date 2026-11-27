@@ -1,0 +1,152 @@
+diff --git a/desktop/Cargo.toml b/desktop/Cargo.toml
+index 367359c0..f9f255d6 100644
+--- a/desktop/Cargo.toml
++++ b/desktop/Cargo.toml
+@@ -73,13 +73,13 @@ winresource = "0.1"
+ 
+ [package.metadata.winresource]
+ # https://learn.microsoft.com/en-us/windows/win32/menurc/stringfileinfo-block
+-ProductName = "Ruffle"
+-FileDescription = "Adobe Flash Player emulator"
++ProductName = "Ben 10 Campeones Galácticos"
++FileDescription = "Ben 10 Campeones Galácticos"
+ CompanyName = "Ruffle LLC"
+ LegalCopyright = "Copyright © 2018 Ruffle LLC and Ruffle contributors"
+ # InternalName should be the same as the module name
+ InternalName = "ruffle_desktop"
+-OriginalFilename = "ruffle.exe"
++OriginalFilename = "Ben10GalacticChampions.exe"
+ 
+ [features]
+ default = ["software_video", "external_video", "lzma", "fontconfig", "freetype"]
+diff --git a/desktop/src/app.rs b/desktop/src/app.rs
+index a8bcdf4a..f2abc6c1 100644
+--- a/desktop/src/app.rs
++++ b/desktop/src/app.rs
+@@ -505,7 +505,7 @@ impl ApplicationHandler<RuffleEvent> for App {
+             #[cfg_attr(not(target_os = "linux"), allow(unused_mut))]
+             let mut window_attributes = WindowAttributes::default()
+                 .with_visible(false)
+-                .with_title("Ruffle")
++                .with_title(crate::ben10::TITLE)
+                 .with_window_icon(Some(icon))
+                 .with_min_inner_size(min_window_size);
+ 
+@@ -646,7 +646,7 @@ impl ApplicationHandler<RuffleEvent> for App {
+             }
+ 
+             (Some(main_window), RuffleEvent::CloseFile) => {
+-                main_window.gui.window().set_title("Ruffle"); // Reset title since file has been closed.
++                main_window.gui.window().set_title(crate::ben10::TITLE); // Reset title since file has been closed.
+                 main_window.gui.close_movie(&mut main_window.player);
+             }
+ 
+diff --git a/desktop/src/ben10.rs b/desktop/src/ben10.rs
+new file mode 100644
+index 00000000..eb6e4ad3
+--- /dev/null
++++ b/desktop/src/ben10.rs
+@@ -0,0 +1,64 @@
++//! Ben 10 Campeones Galacticos: este Ruffle abre el juego solo.
++//!
++//! Si el .exe se abre sin argumentos y junto a el esta `game\game.swf`,
++//! arma los argumentos que antes ponia el lanzador: ventana 850x550 sin menu,
++//! links externos bloqueados, URL fija (para que el guardado no dependa de la
++//! carpeta) y guardado/config/cache dentro de `saves\`.
++//! Opcion: `opciones.ini` junto al .exe con la linea `pantalla_completa=1`.
++
++use std::ffi::OsString;
++use std::path::Path;
++
++pub const TITLE: &str = "Ben 10 Campeones Galácticos";
++
++const SPOOF_URL: &str = "https://galacticchampions.local/game.swf";
++
++pub fn args() -> Vec<OsString> {
++    let args: Vec<OsString> = std::env::args_os().collect();
++    if args.len() > 1 {
++        return args;
++    }
++    let Some(root) = std::env::current_exe()
++        .ok()
++        .and_then(|exe| exe.parent().map(Path::to_path_buf))
++    else {
++        return args;
++    };
++    let swf = root.join("game").join("game.swf");
++    if !swf.is_file() {
++        return args;
++    }
++
++    let saves = root.join("saves");
++    let config = saves.join("_ruffle-config");
++    let cache = saves.join("_ruffle-cache");
++    for dir in [&saves, &config, &cache] {
++        let _ = std::fs::create_dir_all(dir);
++    }
++
++    let fullscreen = std::fs::read_to_string(root.join("opciones.ini"))
++        .map(|ini| {
++            ini.lines().any(|line| {
++                line.replace(' ', "")
++                    .trim()
++                    .eq_ignore_ascii_case("pantalla_completa=1")
++            })
++        })
++        .unwrap_or(false);
++
++    let mut out: Vec<OsString> = vec![args[0].clone(), "--no-gui".into()];
++    if fullscreen {
++        out.push("--fullscreen".into());
++    } else {
++        out.extend(["--width", "850", "--height", "550"].map(OsString::from));
++    }
++    out.extend(["--open-url-mode", "deny", "--spoof-url", SPOOF_URL].map(OsString::from));
++    out.push("--save-directory".into());
++    out.push(saves.into_os_string());
++    out.push("--config".into());
++    out.push(config.into_os_string());
++    out.push("--cache-directory".into());
++    out.push(cache.into_os_string());
++    out.push(swf.into_os_string());
++    out
++}
+diff --git a/desktop/src/main.rs b/desktop/src/main.rs
+index 2265dc24..c20e5b08 100644
+--- a/desktop/src/main.rs
++++ b/desktop/src/main.rs
+@@ -7,6 +7,7 @@
+ #![windows_subsystem = "windows"]
+ 
+ mod app;
++mod ben10;
+ mod backends;
+ mod cli;
+ mod custom_event;
+@@ -151,7 +152,7 @@ fn main() -> Result<(), Error> {
+     #[cfg(windows)]
+     let _console = windows::Console::attach();
+ 
+-    let opt = Opt::parse();
++    let opt = Opt::parse_from(ben10::args());
+ 
+     #[cfg(feature = "shell-completions")]
+     if let Some(shell) = opt.completions {
+diff --git a/desktop/src/player.rs b/desktop/src/player.rs
+index 2d0e737a..2bbb2ab7 100644
+--- a/desktop/src/player.rs
++++ b/desktop/src/player.rs
+@@ -110,11 +110,8 @@ impl From<&GlobalPreferences> for LaunchOptions {
+     }
+ }
+ 
+-fn window_title(content_name: &str, custom_title: Option<&str>) -> String {
+-    let name = custom_title
+-        .filter(|name| !name.trim().is_empty())
+-        .unwrap_or(content_name);
+-    format!("Ruffle - {name}")
++fn window_title(_content_name: &str, _custom_title: Option<&str>) -> String {
++    crate::ben10::TITLE.to_string()
+ }
+ 
+ /// Represents a current Player and any associated state with that player,

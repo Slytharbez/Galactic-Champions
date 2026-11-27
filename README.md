@@ -1,5 +1,15 @@
 Ben 10 Omniverse: Galactic Champions Mod Code Transylian (Frankenstrike)
 -
+PC version (Windows):
+-
+build.ps1 builds our own Ruffle (Ruffle 0.8.0 + ruffle\ruffle.patch) as Ben10GalacticChampions.exe and puts the game next to the repo, in ..\Ben10GalacticChampions (the .exe, game\, saves\ and licencias\). Nothing is built inside the repo.
+- Requirements: git, Rust (rustup), Visual Studio Build Tools 2022 (C++ workload), Java
+- .\build.ps1: downloads Ruffle to ..\ruffle-src, applies the patch and the icon, compiles (first time ~5 min) and builds the game folder from the last commit of game\
+- .\build.ps1 -SinCompilar: only rebuilds the game folder; -Destino C:\Juegos: puts it somewhere else
+- Double-click Ben10GalacticChampions.exe: it opens the game directly, with its own title and icon, and keeps the save in saves\, so the folder can be moved or copied
+- Full screen: create opciones.ini next to the .exe with the line pantalla_completa=1
+- Old save: copy galacticchampions.sol to saves\galacticchampions.local\game.swf\ (with the game closed)
+
 Option 1:
 -
 Branches in GitHub:
@@ -14,7 +24,7 @@ Unpack ".zip"
 - Using 7-Zip (Download in 7-zip.org) or WinRAR (Download in win-rar.com)
 
 Download Ruffle: ruffle.rs
-- Open Ruffle, click File, Open File, look for your folder, select game.swf, click Open, then play
+- Open Ruffle, click File, Open File, look for your folder, select game\game.swf, click Open, then play
 - Uses the codes from texts-.xml, 0 unlocks Transylian
 
 You can delete the git files, .gitattributes and README.md
